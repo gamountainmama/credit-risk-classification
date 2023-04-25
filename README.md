@@ -23,8 +23,6 @@ I predicted whether a loan was healthy or high-risk. The original data included 
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1:
   * Model 1 (original data) had an accuracy score of 0.9924, precision of 1.00 for the healthy loans and 0.88 for the high-risk loans. The recall scores were 1.00 for healthy loans and 0.91 for high-risk loan. This model is most likely to predict accurately for healthy loans.
 
