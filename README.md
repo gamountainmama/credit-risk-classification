@@ -26,16 +26,12 @@ I predicted whether a loan was healthy or high-risk. The original data included 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Model 1 (original data) had an accuracy score of 0.9924, precision of 1.00 for the healthy loans and 0.87 for the high-risk loans. The recall scores were 1.00 for healthy loans and 0.89 for high-risk loan. This model is most like to predict accurately for healthy loans.
+  * Model 1 (original data) had an accuracy score of 0.9924, precision of 1.00 for the healthy loans and 0.88 for the high-risk loans. The recall scores were 1.00 for healthy loans and 0.91 for high-risk loan. This model is most likely to predict accurately for healthy loans.
 
 * Machine Learning Model 2:
-  * Model 2 (re-sampled data) had an accuracy score of 0.9924, precision of 1.00 for the healthy loans and 0.87 for the high-risk loans. The recall scores were 1.00 for healthy loans and 0.89 for high-risk loan. This model is most like to predict accurately for healthy loans.
+  * Model 2 (re-sampled data) had an accuracy score of 0.9950, precision of 1.00 for the healthy loans and 0.99 for the high-risk loans. The recall scores were 0.99 for healthy loans and 1.00 for high-risk loan. This model predicts accurately for both types of loans.
 
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+The re-sampled data model seems to perform best because it is more accurate and more precise that the original data model. It is more important to accurately predict the high-risk loans so that banks are more cautious with these loans.
